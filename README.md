@@ -54,6 +54,12 @@ Para detener y eliminar los contenedores Docker, utiliza el siguiente comando:
 
 docker-compose down
 
+Ejecución de Pruebas Unitarias
+
+El proyecto incluye pruebas unitarias que se pueden ejecutar con pytest. Para ejecutar las pruebas, utiliza el siguiente comando en la terminal:
+
+pytest
+
 Notas Adicionales
 
 Base de Datos en Docker: La base de datos PostgreSQL está configurada para ejecutarse dentro de un contenedor Docker (db) junto con la aplicación web.
